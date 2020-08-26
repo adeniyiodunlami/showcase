@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="66dabd08-033e-4d42-9c2a-f15754d92443" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1duzAEgNaxAfl1EHp0aK1HGJ4qS" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.service" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wiremocking.exception" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.MovieRestClientTest">
+    <configuration name="MovieKarateTest.testSample" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.service.MovieKarateTest.testSample&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MovieRestClientTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.service.MovieRestClientTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MovieRestClientTest.rtrvAllMovies" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.service.MovieRestClientTest.rtrvAllMovies&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MovieRestClientTest.rtrvMovieByID" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.service.MovieRestClientTest.rtrvMovieByID&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MovieRestClientTest.rtrvMovies_matchesURL" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.service.MovieRestClientTest.rtrvMovies_matchesURL&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MovieRestClientTest" />
+        <item itemvalue="Gradle.MovieKarateTest.testSample" />
+        <item itemvalue="Gradle.MovieRestClientTest.rtrvMovieByID" />
+        <item itemvalue="Gradle.MovieRestClientTest.rtrvMovies_matchesURL" />
+        <item itemvalue="Gradle.MovieRestClientTest.rtrvAllMovies" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66dabd08-033e-4d42-9c2a-f15754d92443" name="Default Changelist" comment="" />
+      <created>1593289620386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593289620386</updated>
+      <workItem from="1593289624116" duration="628000" />
+      <workItem from="1593438098992" duration="484000" />
+      <workItem from="1593632538131" duration="6990000" />
+      <workItem from="1593890264176" duration="302000" />
+      <workItem from="1593991144534" duration="7042000" />
+      <workItem from="1594058907217" duration="214000" />
+      <workItem from="1594134496985" duration="476000" />
+      <workItem from="1594388994901" duration="172000" />
+      <workItem from="1595447812877" duration="1162000" />
+      <workItem from="1595532415894" duration="3724000" />
+      <workItem from="1595599197239" duration="651000" />
+      <workItem from="1596737365088" duration="298000" />
+      <workItem from="1597241850132" duration="587000" />
+      <workItem from="1597257333944" duration="4422000" />
+      <workItem from="1597329315433" duration="287000" />
+      <workItem from="1597433578529" duration="591000" />
+      <workItem from="1597867081327" duration="714000" />
+      <workItem from="1598277683430" duration="2866000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="653" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1593632743713">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state x="653" y="227" key="#com.intellij.ide.util.MemberChooser/1680.23.1680.1027/0.23.1680.971@0.23.1680.971" timestamp="1593632743713" />
+    <state width="1638" height="399" key="GridCell.Tab.0.bottom" timestamp="1597264895775">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1638" height="399" key="GridCell.Tab.0.bottom/0.23.1680.970@0.23.1680.970" timestamp="1597264895775" />
+    <state width="1638" height="309" key="GridCell.Tab.0.bottom/0.23.1680.971@0.23.1680.971" timestamp="1594007186287" />
+    <state width="1638" height="400" key="GridCell.Tab.0.bottom/1680.23.1680.1027/0.23.1680.971@0.23.1680.971" timestamp="1593638249361" />
+    <state width="1638" height="399" key="GridCell.Tab.0.center" timestamp="1597264895774">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1638" height="399" key="GridCell.Tab.0.center/0.23.1680.970@0.23.1680.970" timestamp="1597264895774" />
+    <state width="1638" height="309" key="GridCell.Tab.0.center/0.23.1680.971@0.23.1680.971" timestamp="1594007186286" />
+    <state width="1638" height="400" key="GridCell.Tab.0.center/1680.23.1680.1027/0.23.1680.971@0.23.1680.971" timestamp="1593638249360" />
+    <state width="1638" height="399" key="GridCell.Tab.0.left" timestamp="1597264895774">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1638" height="399" key="GridCell.Tab.0.left/0.23.1680.970@0.23.1680.970" timestamp="1597264895774" />
+    <state width="1638" height="309" key="GridCell.Tab.0.left/0.23.1680.971@0.23.1680.971" timestamp="1594007186286" />
+    <state width="1638" height="400" key="GridCell.Tab.0.left/1680.23.1680.1027/0.23.1680.971@0.23.1680.971" timestamp="1593638249359" />
+    <state width="1638" height="399" key="GridCell.Tab.0.right" timestamp="1597264895774">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1638" height="399" key="GridCell.Tab.0.right/0.23.1680.970@0.23.1680.970" timestamp="1597264895774" />
+    <state width="1638" height="309" key="GridCell.Tab.0.right/0.23.1680.971@0.23.1680.971" timestamp="1594007186287" />
+    <state width="1638" height="400" key="GridCell.Tab.0.right/1680.23.1680.1027/0.23.1680.971@0.23.1680.971" timestamp="1593638249360" />
+    <state width="1638" height="309" key="GridCell.Tab.1.bottom" timestamp="1594007186288">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state width="1638" height="309" key="GridCell.Tab.1.bottom/0.23.1680.971@0.23.1680.971" timestamp="1594007186288" />
+    <state width="1638" height="309" key="GridCell.Tab.1.center" timestamp="1594007186288">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state width="1638" height="309" key="GridCell.Tab.1.center/0.23.1680.971@0.23.1680.971" timestamp="1594007186288" />
+    <state width="1638" height="309" key="GridCell.Tab.1.left" timestamp="1594007186287">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state width="1638" height="309" key="GridCell.Tab.1.left/0.23.1680.971@0.23.1680.971" timestamp="1594007186287" />
+    <state width="1638" height="309" key="GridCell.Tab.1.right" timestamp="1594007186288">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state width="1638" height="309" key="GridCell.Tab.1.right/0.23.1680.971@0.23.1680.971" timestamp="1594007186288" />
+    <state x="349" y="142" key="SettingsEditor" timestamp="1593438087475">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="349" y="142" key="SettingsEditor/1680.23.1680.1027/0.23.1680.973@0.23.1680.973" timestamp="1593438087475" />
+  </component>
+</project>
