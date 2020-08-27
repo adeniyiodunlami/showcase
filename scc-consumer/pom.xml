@@ -9,8 +9,8 @@
     <packaging>jar</packaging>
 
     <parent>
-        <groupId>org.scc.example</groupId>
-        <artifactId>spring-cloud-contract</artifactId>
+        <artifactId>showcase</artifactId>
+        <groupId>com.orion.app</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
@@ -36,7 +36,7 @@
             <artifactId>spring-boot-starter-data-rest</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.scc.scc-producer</groupId>
+            <groupId>com.orion.app</groupId>
             <artifactId>scc-producer</artifactId>
             <version>${project.parent.version}</version>
             <scope>test</scope>

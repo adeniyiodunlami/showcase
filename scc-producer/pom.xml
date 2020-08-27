@@ -9,8 +9,8 @@
     <packaging>jar</packaging>
 
     <parent>
-        <groupId>org.scc.example</groupId>
-        <artifactId>spring-cloud-contract</artifactId>
+        <artifactId>showcase</artifactId>
+        <groupId>com.orion.app</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
