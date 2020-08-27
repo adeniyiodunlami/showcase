@@ -1,4 +1,4 @@
-package com.sccconsumer;
+package com.orion.app;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;

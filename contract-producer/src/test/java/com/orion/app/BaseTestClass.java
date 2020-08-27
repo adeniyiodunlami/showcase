@@ -1,6 +1,5 @@
-package com.sccproducer;
+package com.orion.app;
 
-import com.sccproducer.EvenOddController;
 import io.restassured.module.mockmvc.RestAssuredMockMvc;
 import org.junit.Before;
 import org.junit.runner.RunWith;

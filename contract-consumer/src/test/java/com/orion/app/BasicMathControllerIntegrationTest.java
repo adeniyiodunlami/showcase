@@ -1,4 +1,4 @@
-package com.sccconsumer;
+package com.orion.app;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -21,7 +21,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @AutoConfigureMockMvc
 @AutoConfigureJsonTesters
 @AutoConfigureStubRunner(stubsMode = StubRunnerProperties.StubsMode.LOCAL,
-ids = "org.scc.example:scc-producer:+:stubs:8091")
+	ids = "com.orion.app:contract-producer:+:stubs:8091")
 public class BasicMathControllerIntegrationTest
 {
 	@Autowired
