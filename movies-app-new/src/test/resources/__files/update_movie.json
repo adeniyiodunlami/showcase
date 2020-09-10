@@ -1,0 +1,7 @@
+{
+  "movie_id": "{{request.path.[3]}}",
+  "name": "Dragon Ball Z Kai",
+  "year": 2020,
+  "cast": "Goku, Vegeta, {{jsonPath.request.body '$.cast'}}",
+  "release_date": "2020-11-01"
+}
