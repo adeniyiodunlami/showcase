@@ -12,7 +12,7 @@ import java.time.LocalDate;
 public class MoviesDto
 {
 	public String cast;
-	public long movie_id;
+	public Long movie_id;
 	public String name;
 	public LocalDate release_date;
 	public Integer year;
