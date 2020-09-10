@@ -46,6 +46,7 @@ public class MovieRestClientTest
 		int port = wireMockServer.port();
 		String baseurl = String.format("http://localhost:%s/", port);
 		//String baseurl = String.format("http://localhost:8081/", port);
+		System.out.println("baseUrl ::"+baseurl);
 		webClient = WebClient.create(baseurl);
 		movieRestClient = new MoviesRestClient(webClient);
 	}
