@@ -53,25 +53,25 @@ public class MovieKarateTest
 //		movieRestClient = new MoviesRestClient(webClient);
 //	}
 
-	@Karate.Test
-	Karate testSample() {
-		return Karate.run("movie").relativeTo(getClass());
-	}
+//	@Karate.Test
+//	Karate testSample() {
+//		return Karate.run("movie").relativeTo(getClass());
+//	}
 
-	@Karate.Test
-	Karate testTags() {
-		return Karate.run("tags").tags("@second").relativeTo(getClass());
-	}
-
-	@Karate.Test
-	Karate testFullPath() {
-		return Karate.run("classpath:karate/tags.feature").tags("@first");
-	}
-
-	@Karate.Test
-	Karate testAll() {
-		return Karate.run().relativeTo(getClass());
-	}
+//	@Karate.Test
+//	Karate testTags() {
+//		return Karate.run("tags").tags("@second").relativeTo(getClass());
+//	}
+//
+//	@Karate.Test
+//	Karate testFullPath() {
+//		return Karate.run("classpath:karate/tags.feature").tags("@first");
+//	}
+//
+//	@Karate.Test
+//	Karate testAll() {
+//		return Karate.run().relativeTo(getClass());
+//	}
 
 //	@Test
 //	void rtrvAllMovies(){
