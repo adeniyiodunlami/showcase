@@ -104,14 +104,14 @@ public class MovieRestClientTest
 		assertEquals("Batman Begins", movieDetails.getName());
 	}
 
-	@Test
-	void rtrvMovieByID_NotFound(){
-		//given block
-		Integer id = 100;
-
-		//when
-		Assertions.assertThrows(MovieErrorResponse.class, () -> movieRestClient.rtrvById(id));
-	}
+//	@Test
+//	void rtrvMovieByID_NotFound(){
+//		//given block
+//		Integer id = 100;
+//
+//		//when
+//		Assertions.assertThrows(MovieErrorResponse.class, () -> movieRestClient.rtrvById(id));
+//	}
 
 	@Test
 	void rtrvMovieByName(){
