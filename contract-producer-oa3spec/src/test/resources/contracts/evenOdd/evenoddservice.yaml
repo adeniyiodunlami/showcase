@@ -1,0 +1,51 @@
+openapi: 3.0.0
+servers: []
+info:
+  description: "Service to check if a number is even or odd using consumer driven contracts"
+  version: "1.0.0"
+  title: "Even Odd checking service"
+tags:
+  - name: Even Odd Service
+    description: Even Odd checking service
+paths:
+  /validate-number:
+    get:
+      tags:
+        - Even Odd Service
+      summary: Checks if a given number is even or odd
+      operationId: validate-number
+      description: For a given number service will check if the number is even or odd
+      x-contracts:
+        - contractId: 1
+          name: Should return number as Even
+        - contractId: 2
+          name: Should return number as Odd
+      parameters:
+        - name: number
+          in: query
+          required: true
+          description: The number that is to be checked
+          schema:
+            type: integer
+            format: int64
+            minimum: 1
+          x-contracts:
+            - contractId: 1
+              value: 10
+            - contractId: 2
+              value: 7
+
+
+      responses:
+        '200':
+          description: okay
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: "Even"
+          x-contracts:
+            - contractId: 1
+              body: "Even"
+            - contractId: 2
+              body: "Odd"
