@@ -1,5 +1,4 @@
 openapi: 3.0.0
-servers: []
 info:
   description: "Service to check if a number is even or odd using consumer driven contracts"
   version: "1.0.0"
