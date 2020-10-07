@@ -8,12 +8,39 @@ public class SampleConsumerDto
 
 	public String lname;
 
-	public SampleConsumerDto(int id, String fname, String lname)
+	public Double salary;
+
+	public String gender;
+
+	public SampleConsumerDto(int id, String fName, String lName)
 	{
 		this.id = id;
-		this.fname = fname;
-		this.lname = lname;
+		this.fname = fName;
+		this.lname = lName;
+//		this.salary = salary;
+//		this.gender = gender;
 	}
+
+	public Double getSalary()
+	{
+		return salary;
+	}
+
+	public void setSalary(Double salary)
+	{
+		this.salary = salary;
+	}
+
+	public String getGender()
+	{
+		return gender;
+	}
+
+	public void setGender(String gender)
+	{
+		this.gender = gender;
+	}
+
 
 	public int getId()
 	{
