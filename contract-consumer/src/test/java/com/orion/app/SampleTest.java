@@ -3,7 +3,7 @@ package com.orion.app;
 import com.dto.SampleConsumerDto;
 import com.github.tomakehurst.wiremock.client.WireMock;
 import org.assertj.core.api.BDDAssertions;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.json.AutoConfigureJsonTesters;
@@ -15,8 +15,6 @@ import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
 import wiremock.com.fasterxml.jackson.databind.ObjectMapper;
 import wiremock.org.apache.http.HttpHeaders;
-
-
 
 @RunWith(SpringRunner.class)
 //@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK)
