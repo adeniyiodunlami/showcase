@@ -7,6 +7,10 @@ Contract.make {
     request {
         method 'GET'
         url '/employee/1'
+        headers {
+            contentType(applicationJson())
+
+        }
     }
     response {
         status 200
