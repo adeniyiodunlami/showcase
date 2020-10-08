@@ -1,23 +1,20 @@
 package com.orion.app;
 
 import com.dto.SampleConsumerDto;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.client.RestTemplate;
 
-@RestController
+@Component
 public class SampleConsumer
 {
-	@Autowired
-	RestTemplate restTemplate;
+	final RestTemplate restTemplate = new RestTemplate();
 
-	@GetMapping("/employee")
-	public SampleConsumerDto getPerson(int id)
+	public SampleConsumerDto getPerson(@RequestParam("id")int id)
 	{
 
 		HttpHeaders httpHeaders = new HttpHeaders();
@@ -28,6 +25,7 @@ public class SampleConsumer
 			HttpMethod.GET,
 			new HttpEntity<>(httpHeaders),
 			SampleConsumerDto.class);
+
 
 		return result.getBody();
 	}

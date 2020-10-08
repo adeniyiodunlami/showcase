@@ -17,7 +17,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 @AutoConfigureJsonTesters
 @AutoConfigureStubRunner(stubsMode = StubRunnerProperties.StubsMode.LOCAL,
 	ids = "com.orion.app:contract-producer:+:stubs:8081")
-
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK)
 @ComponentScan(basePackages = {"com.orion.app"})
 public class SampleProducerTest

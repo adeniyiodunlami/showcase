@@ -1,37 +1,46 @@
 package com.orion.app;
 
 import com.dto.SampleConsumerDto;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.tomakehurst.wiremock.client.WireMock;
+import com.github.tomakehurst.wiremock.junit.WireMockRule;
 import org.assertj.core.api.BDDAssertions;
-import org.junit.jupiter.api.Test;
+import org.junit.Rule;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.json.AutoConfigureJsonTesters;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
-import org.springframework.cloud.contract.stubrunner.spring.AutoConfigureStubRunner;
-import org.springframework.cloud.contract.stubrunner.spring.StubRunnerProperties;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
-import wiremock.com.fasterxml.jackson.databind.ObjectMapper;
 import wiremock.org.apache.http.HttpHeaders;
 
+import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.wireMockConfig;
+
 @RunWith(SpringRunner.class)
-//@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK)
 @AutoConfigureMockMvc
 @AutoConfigureJsonTesters
-@AutoConfigureStubRunner(stubsMode = StubRunnerProperties.StubsMode.LOCAL,
-	ids = "com.orion.app:contract-producer:+:stubs:8081")
+//@AutoConfigureStubRunner(stubsMode = StubRunnerProperties.StubsMode.LOCAL,
+//	ids = "com.orion.app:contract-producer:+:stubs:8081")
 @ComponentScan(basePackages = {"com.orion.app"})
 public class SampleTest
 {
 
 
 	@Autowired
-	SampleConsumer sampleConsumer;
+	SampleConsumerWM sampleConsumerWM;
 
 	@Autowired
 	ObjectMapper objectMapper;
+
+//	@ConfigureWireMock
+//	Options options = wireMockConfig().port(8088)
+//		.notifier(new ConsoleNotifier(true));
+
+
+	@Rule
+	public WireMockRule wireMockRule = new WireMockRule(wireMockConfig().port(8088));
 
 	@Test
 	public void clientShouldRetrunPersonForGivenID() throws Exception {
@@ -40,7 +49,7 @@ public class SampleTest
 				.withStatus(200)
 				.withHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_UTF8_VALUE)
 				.withBody(jsonForPerson(new SampleConsumerDto(1, "Jane", "Doe")))));
-		BDDAssertions.then(this.sampleConsumer.getPerson(1).getFname()).isEqualTo("Jane");
+		BDDAssertions.then(this.sampleConsumerWM.getPerson(1).getFname()).isEqualTo("Jane");
 	}
 
 
