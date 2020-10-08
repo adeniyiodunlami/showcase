@@ -34,11 +34,6 @@ public class SampleTest
 	@Autowired
 	ObjectMapper objectMapper;
 
-//	@ConfigureWireMock
-//	Options options = wireMockConfig().port(8088)
-//		.notifier(new ConsoleNotifier(true));
-
-
 	@Rule
 	public WireMockRule wireMockRule = new WireMockRule(wireMockConfig().port(8088));
 
