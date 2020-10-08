@@ -12,6 +12,10 @@ public class SampleConsumerDto
 
 	public String gender;
 
+	public SampleConsumerDto()
+	{
+	}
+
 	public SampleConsumerDto(int id, String fName, String lName)
 	{
 		this.id = id;
