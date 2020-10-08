@@ -29,10 +29,6 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-rest</artifactId>
-        </dependency>
-        <dependency>
             <groupId>com.orion.app</groupId>
             <artifactId>contract-producer</artifactId>
             <version>${project.parent.version}</version>
@@ -43,5 +39,6 @@
           <artifactId>spring-cloud-starter-contract-verifier</artifactId>
           <scope>test</scope>
       </dependency>
-    </dependencies>
+
+  </dependencies>
 </project>
